@@ -1,38 +1,258 @@
-.App {
-  text-align: center;
+.modal-content {
+  background-color: black !important;
+  color: white !important;
+}
+.modal-footer {
+  background-color: rgb(122, 118, 118) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal-footer button:hover {
+  background-color: orange !important;
+}
+.start-btn {
+  width: 40% !important;
+  font-size: xx-large !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* ----------------------------------- */
+
+.btn {
+  border-radius: 1 !important;
+  border-color: rgb(22, 22, 82) !important;
+  border-width: 3px !important;
+  /* margin-bottom: 4% !important; */
+}
+.btn-hover-blue:hover {
+  background-color: rgb(22, 22, 82) !important;
+}
+.exit {
+  background-color: red !important;
+  color: black !important;
+}
+.exit:hover {
+  background-color: orangered !important;
+  border-color: orangered !important;
+}
+
+.heading {
+  font-size: 65px !important;
+  color: rgb(18, 11, 59) !important;
+}
+.paragraph {
+  font-size: 45px !important;
+  color: rgb(18, 11, 59) !important;
+}
+.btn-back {
+  padding: 10px !important;
+  padding-inline: 90px !important;
+  margin-left: 20px !important;
+  font-size: 40px !important;
+}
+.btn-continue {
+  padding-inline: 80px !important;
+  font-size: 40px !important;
+}
+.counter {
+  font-size: 100px !important;
+  font-weight: normal !important;
+  color: rgb(7, 2, 36) !important;
+}
+.lang-toggle {
+  width: 20% !important;
+}
+.lang-btn {
+  padding: 4% !important;
+  font-size: x-large;
+}
+.primary {
+  background-color: teal;
+  border: none !important;
+}
+.secondary {
+  background-color: rgba(94, 71, 94, 0.877);
+  border: none !important;
+}
+.start-btn {
+  width: 20% !important;
+  font-size: xx-large;
+}
+.start-btn:hover {
+  background-color: navy !important;
+}
+/* -------------------------------------------------- */
+.restart-btn {
+  background-color: rgb(22, 22, 82) !important;
+  padding-inline: 50% !important;
+  font-size: xx-large !important;
+}
+.restart-btn:hover {
+  background-color: teal !important;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+  .paragraph {
+    font-size: medium !important;
+  }
+  .heading {
+    font-size: x-large !important;
+  }
+  .counter {
+    font-size: xx-large !important;
+  }
+  .btn-back {
+    padding-inline: 6% !important;
+    margin-left: 1% !important;
+    font-size: medium !important;
+    margin-bottom: 1% !important;
+  }
+  .eng-continue-btn {
+    padding-inline: 15% !important;
+    font-size: medium !important;
+    margin-bottom: 1% !important;
+  }
+
+  .tamil-continue-btn {
+    padding-inline: 7% !important;
+    font-size: small !important;
+    margin-bottom: 1% !important;
+  }
+  .tamil-exit-btn {
+    margin-right: 1% !important;
+    font-size: small !important;
+    padding: 0% !important;
+    margin-bottom: 1% !important;
+  }
+  .eng-exit-btn {
+    margin-right: 1% !important;
+    width: fit-content !important;
+    padding-inline: 5% !important;
+    font-size: medium !important;
+    margin-bottom: 1% !important;
+  }
+  .lang-toggle {
+    width: 60% !important;
+  }
+  .start-btn {
+    font-size: medium !important;
+    width: 30% !important;
+    margin-bottom: 5% !important;
+  }
+  .tamil-start-btn {
+    width: 40% !important;
+    font-size: medium !important;
+    margin-bottom: 5% !important;
+  }
+  .restart-btn {
+    font-size: medium !important;
+    padding: 6% !important;
+    width: 70% !important;
+    margin-left: 2% !important;
+    margin-bottom: 1% !important;
+  }
+  .tamil-restart-btn {
+    font-size: medium !important;
+    width: fit-content !important;
+    text-align: center !important;
+    padding: 3% !important;
+    gap: 3 !important;
+  }
+  .popup-content {
+    font-size: small !important;
+    height: fit-content !important;
+  }
+  .modal-footer button {
+    font-size: small !important;
+    width: fit-content !important;
+  }
+  .modal-footer .tamil-resume-btn {
+    padding-inline: 5% !important;
+  }
+  .tamil-exit-btn {
+    padding: 1% !important;
+    font-size: medium !important;
+  }
+}
+/* tablets  */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .paragraph {
+    font-size: 25px !important;
+  }
+  .heading {
+    font-size: 55px !important;
+  }
+  .counter {
+    font-size: 85px !important;
+  }
+  .btn-back {
+    padding: 20px !important;
+    padding-inline: 35px !important;
+    margin-left: 10px !important;
+    font-size: 30px !important;
+  }
+  .btn-continue {
+    padding-inline: 65px !important;
+    font-size: 25px !important;
+  }
+  .exit {
+    padding: 20px !important;
+    margin-right: 10px !important;
+    font-size: 25px !important;
+  }
+  .lang-toggle {
+    width: 50% !important;
+  }
+  .start-btn {
+    width: 40% !important;
+    font-size: x-large !important;
+  }
+  .lang-btn {
+    padding: 4% !important;
+    font-size: medium !important;
+  }
+  .popup-content {
+    font-size: large !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .paragraph {
+    font-size: 37px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .heading {
+    font-size: 60px !important;
+  }
+  .counter {
+    font-size: 80px !important;
+  }
+  .btn-back {
+    padding: 16px !important;
+    padding-inline: 50px !important;
+    margin-left: 10px !important;
+    font-size: 40px !important;
+  }
+  .btn-continue {
+    padding-inline: 140px !important;
+    font-size: 35px !important;
+  }
+  .exit {
+    padding: 10px !important;
+    margin-right: 10px !important;
+    font-size: 30px !important;
+    padding-inline: 40px !important;
+  }
+  .lang-toggle {
+    width: 50% !important;
+  }
+  .start-btn {
+    width: 40% !important;
+    font-size: x-large !important;
+  }
+  .lang-btn {
+    padding: 4% !important;
+    font-size: x-large;
+  }
+  .popup-content {
+    font-size: x-large !important;
   }
 }
