@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UI_Prayer/static/css/main.bd6c8d6c.css",
+    "main.js": "/UI_Prayer/static/js/main.e133ce7e.js",
+    "static/js/787.ec704a7a.chunk.js": "/UI_Prayer/static/js/787.ec704a7a.chunk.js",
+    "index.html": "/UI_Prayer/index.html",
+    "main.bd6c8d6c.css.map": "/UI_Prayer/static/css/main.bd6c8d6c.css.map",
+    "main.e133ce7e.js.map": "/UI_Prayer/static/js/main.e133ce7e.js.map",
+    "787.ec704a7a.chunk.js.map": "/UI_Prayer/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd6c8d6c.css",
+    "static/js/main.e133ce7e.js"
+  ]
+}

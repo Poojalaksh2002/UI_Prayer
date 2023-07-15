@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+favicon got by using this website , as github provides
+  https://iconscout.com/icons/7
